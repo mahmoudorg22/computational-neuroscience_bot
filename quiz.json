@@ -1,624 +1,963 @@
+
 [
     {
-        "text": "What is the main purpose of the agent program?",
-        "options": ["To design sensors", "To control the physical architecture", "To map percepts to actions", "To store data"],
-        "correct": "To map percepts to actions"
-    },
-    {
-        "text": "What is an example of a stochastic system?",
-        "options": ["A vending machine giving the correct item.", "Weather forecasting.", "Crossword", "A vending machine malfunctioning."],
-        "correct": "Weather forecasting."
-    },
-    {
-        "text": "In agentset Ordering model, what condition prevents a small turtle from asking a big turtle to decrease its size?",
-        "options": ["If big-turtle is nobody.", "If there are no turtles", "If big-turtle is not blue", "If the size of the big turtle is 5"],
-        "correct": "If big-turtle is nobody."
-    },
-    {
-        "text": "\"set size random-float 2.0\" What is the range of the size attribute for the turtles created in the setup procedure?",
-        "options": ["0 to 2", "0 to 10", "0 to 1", "1 to 2"],
-        "correct": "0 to 2"
-    },
-    {
-        "text": "What defines a problem generator in learning agents?",
+        "text": "What is a learning rate in backpropagation, and how does it affect the training process?",
         "options": [
-            "It generates new problems for the agent to explore.",
-            "It refines the agent's performance over time.",
-            "It solves the problem differently instead of optimizing the solution",
-            "It presents optimization"
+        "The learning rate controls how quickly the weights of the network are updated during backpropagation, and a high learning rate can lead to slower generalization",
+        "The learning rate controls how quickly the weights of the network are updated during backpropagation, and a high learning rate can lead to unstable training",
+        "The learning rate controls how quickly the weights of the network are updated during backpropagation, and a low learning rate can lead to unstable training",
+        "The learning rate controls how quickly the weights of the network are updated during backpropagation, and it does not affect the training process"
         ],
-        "correct": "It generates new problems for the agent to explore."
+        "correct": "The learning rate controls how quickly the weights of the network are updated during backpropagation, and a high learning rate can lead to unstable training"
     },
     {
-        "text": "What encoding method is used for the Travelling Salesman problem?",
-        "options": ["Random encoding", "Binary encoding", "Symbolic encoding", "Permutation encoding"],
-        "correct": "Permutation encoding"
-    },
-    {
-        "text": "What does the facexy pxcor pycor command do?",
+        "text": "Weighted sums are passed via activation functions and _________ is produced?",
         "options": [
-            "Positions turtles at random coordinates",
-            "Directs turtles to face the coordinates of a patch.",
-            "Sets patch color to turtle color",
-            "Links two turtles together"
+        "Activation",
+        "Output",
+        "Input",
+        "Net output"
         ],
-        "correct": "Directs turtles to face the coordinates of a patch."
+        "correct": "Output"
     },
     {
-        "text": "What role does the critic play in a learning agent?",
+        "text": "if you have several important features in the dataset, and you want to classify it based on several criteria, you will use",
         "options": [
-            "It critiques the agent's ability to solve problems.",
-            "It suggests new actions based on performance.",
-            "It modifies the agent's performance.",
-            "It evaluates the agent's performance."
+        "multiclass classification",
+        "multilabel classification",
+        "binary classification",
+        "Regression"
         ],
-        "correct": "It evaluates the agent's performance."
+        "correct": "multilabel classification"
     },
     {
-        "text": "Swarm Intelligence is inspired by the collective behavior of?",
-        "options": ["Biological organisms", "Organizational hierarchy", "Programming logic", "Individual thought"],
-        "correct": "Biological organisms"
-    },
-    {
-        "text": "Which command changes the color of all patches to black?",
+        "text": "x= Relu (-2,8)",
         "options": [
-            "clear-all",
-            "ask turtles [set color black]",
-            "ask patches [set pcolor black]",
-            "ask patches [set pcolor white]"
+        "x=8",
+        "x=0",
+        "x=-0.07",
+        "x=0.07"
         ],
-        "correct": "ask patches [set pcolor black]"
+        "correct": "x=8"
     },
     {
-        "text": "Which of the following is an example of a discrete environment?",
-        "options": ["Cross Word", "Taxi driver", "Autonomous vehicles", "physics simulations"],
-        "correct": "Cross Word"
-    },
-    {
-        "text": "In agent-based modeling, what is the significance of agent heterogeneity?",
+        "text": "Given an image of size 27 x 27 and a filter of size 5 x 5 with a stride of 1 and one padding. What is the output size?",
         "options": [
-            "It ensures all agents behave identically.",
-            "It allows agents to have different behaviors and properties.",
-            "It simplifies the model.",
-            "It reduces the complexity of interactions."
+        "13 x 13",
+        "12 x 12",
+        "25 x 25",
+        "27 x 27"
         ],
-        "correct": "It allows agents to have different behaviors and properties."
+        "correct": "25 x 25"
     },
     {
-        "text": "How are directed links different from undirected links in NetLogo?",
+        "text": "Weighted sums in ANNs are referred to as ___________?",
         "options": [
-            "Directed links are created randomly, undirected are manually defined.",
-            "Directed links are one-way, undirected are two-way.",
-            "Directed links change color over time, undirected do not.",
-            "Directed links allow turtles to move, undirected links do not."
+        "Output",
+        "Activation",
+        "Input",
+        "Net output"
         ],
-        "correct": "Directed links are one-way, undirected are two-way."
+        "correct": "Net output"
     },
     {
-        "text": "What does the term \"perception\" refer to in the context of agents?",
+        "text": "IF you have used a CNN with a convolution layer that contain a filter of 4X4X3 to process an RGB image with size 256X128, what is the output size if you apply 2 stride for the filter movement",
         "options": [
-            "The data received from the environment",
-            "The physical form of the agent",
-            "The actions taken by the agent",
-            "The agent's programming logic"
+        "(256X127X3)",
+        "(127X63X3)",
+        "(127X63)",
+        "(252X124X3)"
         ],
-        "correct": "The data received from the environment"
+        "correct": "(127X63)"
     },
     {
-        "text": "Which of the following commands resets the turtle positions randomly?",
+        "text": "The activation function that is best suited for binary classification is",
         "options": [
-            "clear-all",
-            "ask turtles [go random]",
-            "ask patches [setxy random-xcor random-ycor]",
-            "ask turtles [setxy random-xcor random-ycor]"
+        "both of them",
+        "none of them",
+        "Sigmoid",
+        "tanh"
         ],
-        "correct": "ask turtles [setxy random-xcor random-ycor]"
+        "correct": "Sigmoid"
     },
     {
-        "text": "\"let fast-cars turtles with [ speed > 0.3 ] ask fast-cars [ set size 2 ]\" What does the condition [ speed > 0.3 ] do in the code?",
+        "text": "what is the another name of weight update rule?",
         "options": [
-            "selects all turtles.",
-            "sets the size of all turtles.",
-            "It filters turtles based on their speed.",
-            "increases the speed of all turtles."
+        "none of the mentioned",
+        "both LMS error & gradient descent learning law",
+        "gradient descent algorithm",
+        "LMS error learning law"
         ],
-        "correct": "It filters turtles based on their speed."
+        "correct": "gradient descent algorithm"
     },
     {
-        "text": "What is a dynamic environment in AI?",
+        "text": "What is an epoch in the context of training a neural network?",
         "options": [
-            "An environment that changes as the agent makes decisions.",
-            "The environment is static while the agent plans.",
-            "The agent must anticipate environmental changes.",
-            "The environment and agent remain unchanged."
+        "A measure of the network's complexity",
+        "The number of hidden layers in the network",
+        "A specific type of activation function",
+        "One complete pass through the entire training dataset"
         ],
-        "correct": "An environment that changes as the agent makes decisions."
+        "correct": "One complete pass through the entire training dataset"
     },
     {
-        "text": "What is the focus of Artificial Life?",
-        "options": ["Create simulations", "Solve puzzles", "Understand living systems", "Create quantum particles"],
-        "correct": "Understand living systems"
-    },
-    {
-        "text": "Which of the following is a main application of Quantum Computing?",
-        "options": ["File compression", "Art creation", "Quantum Cryptography", "Internet browsing"],
-        "correct": "Quantum Cryptography"
-    },
-    {
-        "text": "What is a rational agent expected to do?",
+        "text": "The fundamental unit of network is",
         "options": [
-            "Always choose the same action",
-            "Follow designer instructions without deviation",
-            "Maximize its performance measure based on percept sequences",
-            "Act randomly"
+        "brain",
+        "Perceptron",
+        "neuron",
+        "nucleus"
         ],
-        "correct": "Maximize its performance measure based on percept sequences"
+        "correct": "neuron"
     },
     {
-        "text": "What step comes after mutation in the GA cycle?",
-        "options": ["Population refresh", "Fitness test", "Evaluation", "Insertion"],
-        "correct": "Evaluation"
-    },
-    {
-        "text": "What is the function of the pen-down command?",
+        "text": "A common cause of underfitting is:",
         "options": [
-            "Stops turtle movement",
-            "Allows turtles to leave a trail",
-            "Changes patch color",
-            "Deletes all turtles"
+        "An overly complex model",
+        "Too many training epochs",
+        "Excessive regularization",
+        "Too few features in the model"
         ],
-        "correct": "Allows turtles to leave a trail"
+        "correct": "Too few features in the model"
     },
     {
-        "text": "In the Agentset Ordering model, what does declaring turtles-own [ wealth ] achieve?",
+        "text": "What is the padding value if you need a valid output for an image size 6X6 with filter 3X3",
         "options": [
-            "It creates a shared wealth value only accessible to patches.",
-            "Each turtle can have a unique wealth value that can be manipulated individually.",
-            "It defines a global wealth variable that applies to all turtles equally.",
-            "It enables turtles to track patch wealth values in their environment."
+        "0",
+        "1",
+        "2",
+        "4"
         ],
-        "correct": "Each turtle can have a unique wealth value that can be manipulated individually."
+        "correct": "0"
     },
     {
-        "text": "Which selection method involves spinning a wheel?",
-        "options": ["Roulette Wheel", "Rank Selection", "Steady State Selection", "Tournament Selection"],
-        "correct": "Roulette Wheel"
-    },
-    {
-        "text": "Which field does Natural Computing NOT draw inspiration from?",
-        "options": ["Chemistry", "Physics", "History", "Biology"],
-        "correct": "History"
-    },
-    {
-        "text": "What is a chromosome in the context of GAs?",
-        "options": ["Individual solution", "A set of chromosomes", "A solution model", "A string of genes"],
-        "correct": "Individual solution"
-    },
-    {
-        "text": "What does the command create-turtles 10 do?",
-        "options": ["Deletes 10 turtles", "Changes the size of turtles to 10", "Creates 10 new turtles", "Moves 10 turtles to a new location"],
-        "correct": "Creates 10 new turtles"
-    },
-    {
-        "text": "What encoding method uses strings of bits?",
-        "options": ["Binary encoding", "Permutation encoding", "Symbolic encoding", "Chromosome encoding"],
-        "correct": "Binary encoding"
-    },
-    {
-        "text": "What is 'gene convergence'?",
+        "text": "During training, what is the purpose of the loss function in a neural network?",
         "options": [
-            "When 95% of genes are similar",
-            "No diversity among genes",
-            "When best fitness is achieved",
-            "All genes are identical"
+        "To activate the neurons in the output layer",
+        "To decide the number of layers in the network",
+        "To measure the performance of the model",
+        "To control the rate of learning"
         ],
-        "correct": "When 95% of genes are similar"
+        "correct": "To measure the performance of the model"
     },
     {
-        "text": "What is the term for a set of chromosomes in a GA?",
-        "options": ["Solution space", "Population", "Chromosome", "Gene pool"],
-        "correct": "Population"
-    },
-    {
-        "text": "In the Fire Model, what does increasing the density affect?",
+        "text": "What will be the outputs of output layer from the below figure, given that the net input O1 = 2.3 and net input O2 = 0.21 using the sigmoid function?",
         "options": [
-            "The number of links between agents",
-            "The color of patches",
-            "The spread of fire",
-            "The movement of turtles"
+        "0.768, 0.084",
+        "0.876, 0.048",
+        "0.91,0.55",
+        "0.867, 0.408"
         ],
-        "correct": "The spread of fire"
+        "correct": "0.91,0.55"
     },
     {
-        "text": "How do you change the shape of a turtle?",
+        "text": "What is the purpose of the \"stride\" in a convolution operation?",
         "options": [
-            "change shape \"circle\"",
-            "set turtle-shape \"circle\"",
-            "shape \"circle\"",
-            "set shape \"circle\""
+        "Control the filter size",
+        "Determine the kernel movement",
+        "Set the number of filters",
+        "Define the number of layers"
         ],
-        "correct": "set shape \"circle\""
+        "correct": "Determine the kernel movement"
     },
     {
-        "text": "What is the name of the process where offspring replace parents?",
-        "options": ["Generational GA", "Elitist GA", "Mutation Selection", "Roulette Wheel Selection"],
-        "correct": "Generational GA"
-    },
-    {
-        "text": "What defines the environment for an agent?",
+        "text": "Ten neurons in the hidden layer and five neurons in the output layer; how many weights and biases parameters?",
         "options": [
-            "The external conditions and factors it interacts with",
-            "The rules it follows",
-            "The actuators",
-            "The internal programming structure"
+        "50",
+        "None of the above",
+        "Less than 50",
+        "More than 50"
         ],
-        "correct": "The external conditions and factors it interacts with"
+        "correct": "More than 50"
     },
-
     {
-        "text": "Why does a model-based reflex agent need to maintain an internal world model (state)?",
+        "text": "what is the suitable number of neurons in every hidden layer, if the input contains 50 neuron and the output divided into 5 classes, and we have 3 hidden layers - choose all the correct answers",
         "options": [
-            "To make decisions that only depend on the environment's immediate state.",
-            "To handle environments with low uncertainty",
-            "To ignore past percepts and only consider the current percept.",
-            "To predict future states and select actions based on previous experiences."
+        "33",
+        "50",
+        "40",
+        "12"
         ],
-        "correct": "To predict future states and select actions based on previous experiences."
+        "correct": "33"
     },
     {
-        "text": "What is the main objective of a utility-based agent?",
+        "text": "Which activation function is commonly used in CNNs?",
         "options": [
-            "To act based only on current percepts without any long-term considerations.",
-            "To select actions that minimize resource consumption.",
-            "To randomly choose actions without considering happiness.",
-            "To choose actions that maximize its expected happiness or utility."
+        "Sigmoid",
+        "Tanh",
+        "ReLU",
+        "Leaky ReLU"
         ],
-        "correct": "To choose actions that maximize its expected happiness or utility."
+        "correct": "ReLU"
     },
     {
-        "text": "What is a goal-based agent required to have in order to make decisions?",
+        "text": "What is the purpose of the training process in a neural network?",
         "options": [
-            "It acts randomly without considering future outcomes.",
-            "It needs a history of all past actions.",
-            "It requires a model of the world but no future planning.",
-            "It needs information about future events and a defined goal."
+        "To initialize the weights and biases.",
+        "To design the architecture of the neural network.",
+        "To validate the model's performance.",
+        "To optimize the model's parameters to make accurate predictions on new data."
         ],
-        "correct": "It needs information about future events and a defined goal."
+        "correct": "To optimize the model's parameters to make accurate predictions on new data."
     },
     {
-        "text": "In which of the following situations would a utility-based agent perform better than a goal-based agent?",
+        "text": "In a three layer network, number of classes is determined by?",
         "options": [
-            "When the environment is simple and deterministic",
-            "When there is a need to consider various trade-offs and select actions that maximize long-term happiness or utility",
-            "When the agent needs to strictly follow a predefined goal.",
-            "When actions are always straightforward and don't involve uncertainty."
+        "none of the mentioned",
+        "number of units in second and third layer",
+        "number of units in third layer",
+        "number of units in second layer"
         ],
-        "correct": "When there is a need to consider various trade-offs and select actions that maximize long-term happiness or utility"
+        "correct": "number of units in third layer"
     },
     {
-        "text": "What is one limitation of a simple reflex agent?",
+        "text": "What is the purpose of an activation function in a neural network?",
         "options": [
-            "It requires significant memory to store past actions.",
-            "It can perform tasks requiring deep learning",
-            "It can only act based on the current percept and cannot adapt to past experiences.",
-            "It can predict future percepts."
+        "To reduce overfitting",
+        "To introduce non-linearity into the output",
+        "To increase the number of neurons in the network",
+        "To speed up training"
         ],
-        "correct": "It can only act based on the current percept and cannot adapt to past experiences."
+        "correct": "To introduce non-linearity into the output"
     },
     {
-        "text": "How does a goal-based agent consider future events when choosing actions?",
+        "text": "What does a neuron compute?",
         "options": [
-            "It only focuses on the current percept and ignores future outcomes.",
-            "It tries to predict the consequences of actions and selects those that lead closer to its goal.",
-            "It makes decisions randomly without considering any consequences",
-            "It uses predefined actions without any future considerations."
+        "A neuron computes a linear function (z = Wx + b) followed by an activation function",
+        "A neuron computes a function g that scales the input x linearly (Wx + b)",
+        "A neuron computes the mean of all features before applying the output to an activation function",
+        "A neuron computes an activation function followed by a linear function (z = Wx + b)"
         ],
-        "correct": "It tries to predict the consequences of actions and selects those that lead closer to its goal."
+        "correct": "A neuron computes a linear function (z = Wx + b) followed by an activation function"
     },
     {
-        "text": "Which of the following best describes the decision-making process of a simple reflex agent?",
+        "text": "The updated weights for the first layer depend on the values of neurons in",
         "options": [
-            "It uses machine learning techniques to predict future states.",
-            "It uses a decision tree based on past percepts.",
-            "It chooses actions using complex planning algorithms.",
-            "It selects actions solely based on the current percept."
+        "the output layer",
+        "the hidden layer",
+        "the second layer",
+        "the hidden and output layers"
         ],
-        "correct": "It selects actions solely based on the current percept."
+        "correct": "the hidden and output layers"
     },
     {
-        "text": "How does a model-based reflex agent decide on its actions?",
+        "text": "Given a color image of size 50 x 70 pixels, what is the dimension of its feature vector?",
         "options": [
-            "It chooses actions only based on the current percept.",
-            "It chooses actions based on its internal model of the world, which includes past and current percepts.",
-            "It chooses actions randomly.",
-            "It relies on a fixed set of predefined actions, regardless of the environment."
+        "5300",
+        "7000",
+        "10500",
+        "3500"
         ],
-        "correct": "It chooses actions based on its internal model of the world, which includes past and current percepts."
+        "correct": "10500"
     },
     {
-        "text": "Which of the following is not a main component of a learning agent?",
-        "options": ["Performance element", "Learning element", "Critic", "Sensor element"],
-        "correct": "Sensor element"
-    },
-    {
-        "text": "What distinguishes a goal-based agent from other types of agents?",
+        "text": "Number of output neurons depends on what factor?",
         "options": [
-            "It operates with no goals or objectives.",
-            "It chooses actions according to a specific goal and considers future events.",
-            "It ignores future events and actions.",
-            "It chooses actions based only on current percepts."
+        "target of model",
+        "number of classes",
+        "number of inputs",
+        "none of the mentioned"
         ],
-        "correct": "It chooses actions according to a specific goal and considers future events."
+        "correct": "number of classes"
     },
     {
-        "text": "What is the key difference between a simple reflex agent and a model-based reflex agent?",
+        "text": "What is the new value of w6 after the first backpropagation step, where the output_h2=0.61538, output_o1=0.73492, net_o1= 1.01977, learning rate=0.6",
         "options": [
-            "A model-based reflex agent ignores past percepts, while a simple reflex agent stores them",
-            "There is no difference; both use the same decision-making process.",
-            "A model-based reflex agent makes decisions based on an internal model of the world, while a simple reflex agent only considers the current percept.",
-            "A model-based reflex agent does not need memory, while a simple reflex agent does."
+        "0.55073",
+        "0.08211",
+        "0.71056",
+        "0.45187"
         ],
-        "correct": "A model-based reflex agent makes decisions based on an internal model of the world, while a simple reflex agent only considers the current percept."
+        "correct": "0.55073"
     },
     {
-        "text": "What is the main characteristic of a simple reflex agent?",
+        "text": "In the context of neural networks, what are hyperparameters?",
         "options": [
-            "It chooses actions only based on the current percept.",
-            "It uses complex reasoning to choose actions.",
-            "It makes decisions based on the entire history of its percepts.",
-            "It stores all past actions for future decisions."
+        "Configuration settings that are set prior to training and impact the model's behavior and performance",
+        "Input features and target labels used for training and testing",
+        "Weights and biases that the network learns during training",
+        "Parameters determined automatically by the network's optimization process"
         ],
-        "correct": "It chooses actions only based on the current percept."
+        "correct": "Configuration settings that are set prior to training and impact the model's behavior and performance"
     },
     {
-        "text": "Does a simple reflex agent have memory of past percepts?",
+        "text": "What is the padding value if you need a same size output for an image size 16X16 with filter 7X7",
         "options": [
-            "It only remembers the last percept",
-            "No, it ignores percept history and has no memory.",
-            "Yes, it remembers all past actions and percepts.",
-            "It stores percepts for a limited time."
+        "2",
+        "0",
+        "1",
+        "3"
         ],
-        "correct": "No, it ignores percept history and has no memory."
+        "correct": "3"
     },
     {
-        "text": "Which of the following is a typical utility that a utility-based agent might aim to maximize?",
+        "text": "What is the vanishing gradient problem?",
         "options": [
-            "The cost of each action it takes.",
-            "The number of actions it performs",
-            "Its overall satisfaction or happiness based on its choices.",
-            "The number of percepts it receives."
+        "The problem of the gradients in the network becoming too small",
+        "The problem of the weights in the network becoming too large",
+        "The problem of the gradients in the network becoming too large",
+        "The problem of the weights in the network becoming too small"
         ],
-        "correct": "Its overall satisfaction or happiness based on its choices."
+        "correct": "The problem of the gradients in the network becoming too small"
     },
     {
-        "text": "What distinguishes a utility-based agent from a goal-based agent?",
+        "text": "Which layer in ANN can receive data from external sources?",
         "options": [
-            "A goal-based agent always acts randomly, whereas a utility-based agent considers future events.",
-            "A goal-based agent aims to reach a specific goal, while a utility-based agent chooses actions based on maximizing overall satisfaction or utility.",
-            "A utility-based agent only works in environments with no uncertainty.",
-            "A utility-based agent does not consider happiness or utility."
+        "Output Layer",
+        "All Mentioned Above",
+        "Hidden Layer",
+        "Input Layer"
         ],
-        "correct": "A goal-based agent aims to reach a specific goal, while a utility-based agent chooses actions based on maximizing overall satisfaction or utility."
+        "correct": "Input Layer"
     },
     {
-        "text": "In what type of environment would a model-based reflex agent be more effective than a simple reflex agent?",
+        "text": "The complexity of ANN is dependent upon _____________?",
         "options": [
-            "An environment that has no need for internal models of the world",
-            "An environment that is fully observable and does not require memory",
-            "An environment where actions are completely determined by the current percept.",
-            "An environment where the agent's actions depend on both past experiences and current percepts."
+        "Number of Neurons",
+        "Number of Nodes",
+        "Value of weights",
+        "Number of Layers"
         ],
-        "correct": "An environment where the agent's actions depend on both past experiences and current percepts."
+        "correct": "Number of Layers"
     },
     {
-        "text": "What is required for a model-based reflex agent to function effectively?",
+        "text": "Machine learning can deal directly with unstructured data",
         "options": [
-            "The agent needs to maintain an internal world model or state.",
-            "The agent needs a complex memory of past actions.",
-            "The agent needs to rely on external sources for decision-making.",
-            "The agent needs to perceive the environment continuously."
+        "false",
+        "true"
         ],
-        "correct": "The agent needs to maintain an internal world model or state."
+        "correct": "true"
     },
     {
-        "text": "In what type of environment would a goal-based agent be most useful?",
+        "text": "Information passed till it reaches the output in _____________ type of ANN?",
         "options": [
-            "Environments that require long-term planning and decision-making based on goals.",
-            "Environments that do not require any planning or goals.",
-            "Environments where the agent does not need to consider future consequences.",
-            "Environments where actions are determined purely by current percepts."
+        "Recurrent Neural Networks",
+        "Feed-forward Neural Networks",
+        "Deconvolutional Neural Networks",
+        "Convolutional Neural Networks"
         ],
-        "correct": "Environments that require long-term planning and decision-making based on goals."
+        "correct": "Feed-forward Neural Networks"
     },
     {
-        "text": "In what type of environment would a simple reflex agent be most effective?",
+        "text": "What is the primary objective of the backpropagation algorithm in neural network training?",
         "options": [
-            "Environments that require interaction with multiple agents",
-            "Environments where the current percept directly determines the correct action",
-            "Environments that require long-term planning and memory",
-            "Complex environments with high uncertainty"
+        "To determine the batch size for training",
+        "To minimize the loss function by adjusting the model's weights",
+        "To calculate the initial weights",
+        "To optimize the model's architecture"
         ],
-        "correct": "Environments where the current percept directly determines the correct action"
+        "correct": "To minimize the loss function by adjusting the model's weights"
     },
     {
-        "text": "How do utility-based agents evaluate their actions?",
+        "text": "What is the 'Vanishing Gradients' issue of the other RNN?",
         "options": [
-            "They evaluate actions based on random selection",
-            "They evaluate actions based on how much they increase the agent's expected happiness or utility",
-            "They base their decisions solely on the current state",
-            "They act based on a fixed set of predefined behaviors."
+        "When the values of a gradient are too big and the model stops learning or takes way too long because of that.",
+        "When the values of a gradient are too big and the model joins in a loop because of that.",
+        "When the values of a gradient are too small and the model stops learning or takes way too long because of that.",
+        "When the values of a gradient are too small and the model joins in a loop because of that."
         ],
-        "correct": "They evaluate actions based on how much they increase the agent's expected happiness or utility"
+        "correct": "When the values of a gradient are too small and the model stops learning or takes way too long because of that."
     },
-
     {
-        "text": "In non-deterministic environments, does the change in the world state depend only on the current state and the agent's action?",
+        "text": "What is the purpose of the loss function in CNN training?",
         "options": [
-            "No, it is completely deterministic and predictable.",
-            "Yes, but with perfect knowledge of all possible outcomes",
-            "No, the change in world state cannot be predicted or determined.",
-            "Yes, it depends only on the current state and agent's action."
+        "To measure the prediction error and guide the learning process",
+        "To initialize the weights and biases of the network",
+        "To adjust the learning rate during training",
+        "None of them"
         ],
-        "correct": "No, the change in world state cannot be predicted or determined."
+        "correct": "To measure the prediction error and guide the learning process"
     },
     {
-        "text": "If the choice of the current action depends on previous actions, what type of environment is it likely to be?",
-        "options": ["Non-sequential", "Episodic", "Deterministic", "Sequential"],
-        "correct": "Sequential"
-    },
-    {
-        "text": "Which of the following is not an example of a sequential environment?",
-        "options": ["Part picking robot", "Backgammon", "Cross Word", "Taxi Driver"],
-        "correct": "Part picking robot"
-    },
-    {
-        "text": "What is the main characteristic of a dynamic environment?",
+        "text": "What is the training process in a GAN called?",
         "options": [
-            "It does not change while the agent is deliberating",
-            "It remains unchanged regardless of the agent's actions.",
-            "It changes during the agent's deliberation.",
-            "It only changes after the agent takes an action."
+        "Supervised learning",
+        "Reinforcement learning",
+        "Unsupervised learning",
+        "Adversarial learning"
         ],
-        "correct": "It changes during the agent's deliberation."
+        "correct": "Adversarial learning"
     },
     {
-        "text": "In which type of environment do changes occur while the agent is deliberating on what to do?",
-        "options": ["Episodic environment", "Static environment", "Dynamic environment", "Sequential environment"],
-        "correct": "Dynamic environment"
-    },
-    {
-        "text": "What is the characteristic of continuous environments in terms of percepts and actions?",
+        "text": "What is the primary role of the 'discriminator' in a GAN?",
         "options": [
-            "They are restricted to only binary options.",
-            "They have distinct and clearly defined percepts and actions.",
-            "They have a limited number of possibilities.",
-            "They have a range of values with infinite or continuous possibilities"
+        "To store data",
+        "To generate new data",
+        "To classify data as real or generated",
+        "To optimize network speed"
         ],
-        "correct": "They have a range of values with infinite or continuous possibilities"
+        "correct": "To classify data as real or generated"
     },
     {
-        "text": "In non-episodic environments, is the choice of the current action dependent on previous actions?",
+        "text": "What is 'Variational Autoencoder' (VAE)?",
         "options": [
-            "Yes, the current action is dependent on previous actions.",
-            "The current action depends only on the environment's state, not on previous actions.",
-            "The agent has no control over its actions.",
-            "No, the current action is independent of previous actions."
+        "A data encryption tool",
+        "A type of autoencoder used for data compression",
+        "A model for visual data only",
+        "A generative model that uses probabilistic encoders and decoders"
         ],
-        "correct": "Yes, the current action is dependent on previous actions."
+        "correct": "A generative model that uses probabilistic encoders and decoders"
     },
     {
-        "text": "Does the agent always have perfect or full information when making decisions about its actions?",
+        "text": "During training a GAN backpropagation optimizes the weight of?",
         "options": [
-            "The agent only relies on external information",
-            "No, the agent may not have perfect or full information",
-            "The agent has full information but cannot act on it",
-            "Yes, the agent always has full information"
+        "Generator in first phase and Discriminator in second phase",
+        "Discriminator in first phase and Generator in second phase",
+        "Both Generator and discriminator simultaneously"
         ],
-        "correct": "No, the agent may not have perfect or full information"
+        "correct": "Discriminator in first phase and Generator in second phase"
     },
     {
-        "text": "What does an agent require to choose its actions?",
+        "text": "Discriminator in GAN is?",
         "options": [
-            "Knowledge about past actions only",
-            "Perfect or full information",
-            "Information from its sensors",
-            "Information about other agents"
+        "Autoencoder's encoder",
+        "Multilabel classifier",
+        "Regular binary classifier",
+        "Autoencoder's decoder"
         ],
-        "correct": "Information from its sensors"
+        "correct": "Regular binary classifier"
     },
     {
-        "text": "Which of the following environments would be considered continuous?",
+        "text": "Autoencoders can be used for which of the following tasks?",
         "options": [
-            "A decision tree with discrete outcomes",
-            "A binary classifier system with only two outcome",
-            "A system where actions and percepts can take on a wide range of values, such as speed or distance",
-            "A game of tic-tac-toe"
+        "Anomaly detection",
+        "Image compression",
+        "Denoising",
+        "All of them"
         ],
-        "correct": "A system where actions and percepts can take on a wide range of values, such as speed or distance"
+        "correct": "All of them"
     },
     {
-        "text": "In which type of environment does the world not change while the agent is making decisions?",
-        "options": ["Non-deterministic environment", "Non-episodic environment", "Static environment", "Dynamic environment"],
-        "correct": "Static environment"
-    },
-    {
-        "text": "Which of the following is an example of a fully observable system?",
+        "text": "Advantages of using autoencoder to reduce the dataset's dimensionality are",
         "options": [
-            "A robot navigating through an unknown environment",
-            "A car driving autonomously without any sensors",
-            "A security system with cameras in every corner of a building",
-            "A doctor diagnosing a patient without all the necessary test results"
+        "They can handle large datasets",
+        "Many instances",
+        "Many features",
+        "All of these"
         ],
-        "correct": "A security system with cameras in every corner of a building"
+        "correct": "All of these"
     },
     {
-        "text": "What does an agent need to do in non-episodic environments when making decisions?",
+        "text": "Autoencoder which has fewer units in the hidden layer is an?",
         "options": [
-            "The agent doesn't need to think about previous or future actions.",
-            "The agent can act randomly without considering future consequences.",
-            "The agent only needs to consider the current state and act accordingly.",
-            "The agent has to plan ahead because the current choice will affect future actions."
+        "Undercomplete autoencoder",
+        "Overcomplete autoencoder",
+        "Sparse autoencoder"
         ],
-        "correct": "The agent has to plan ahead because the current choice will affect future actions."
+        "correct": "Undercomplete autoencoder"
     },
     {
-        "text": "What is an agent called when it operates by itself in an environment?",
-        "options": ["Single-agent system", "Cooperative agent", "Independent agent", "Multi-agent system"],
-        "correct": "Single-agent system"
-    },
-    {
-        "text": "What do we call a system where many agents work together to achieve a common goal?",
-        "options": ["Multi-agent system", "Static system", "Single-agent system", "Independent system"],
-        "correct": "Multi-agent system"
-    },
-    {
-        "text": "Which of the following describes a discrete environment?",
+        "text": "Autoencoder's output is exactly the same as the input.",
         "options": [
-            "An environment where percepts and actions change randomly",
-            "An environment with a continuous range of values for percepts and actions",
-            "An environment where actions and percepts are limited to a fixed set of distinct and clearly defined options",
-            "An environment with infinite possible actions and percepts"
+        "False",
+        "True"
         ],
-        "correct": "An environment where actions and percepts are limited to a fixed set of distinct and clearly defined options"
+        "correct": "False"
     },
     {
-        "text": "Which of the following is an example of a partially observable system?",
+        "text": "What is the primary purpose of 'Autoencoders' in Generative AI?",
         "options": [
-            "A satellite monitoring weather patterns from space",
-            "A doctor diagnosing a patient with all necessary test results",
-            "A security system with cameras in every corner of a building",
-            "A doctor diagnosing a patient without all the necessary test results"
+        "To encrypt data",
+        "To automatically encode text",
+        "For dimensionality reduction and feature learning",
+        "For accelerating network performance"
         ],
-        "correct": "A doctor diagnosing a patient without all the necessary test results"
+        "correct": "For dimensionality reduction and feature learning"
     },
     {
-        "text": "In a discrete environment, how are the percepts and actions defined?",
+        "text": "What is the purpose of noise input in the generator component of a GAN?",
         "options": [
-            "A wide range of continuous values",
-            "A limited number of distinct and clearly defined values",
-            "A random set of percepts and actions",
-            "An infinite range of possibilities"
+        "None of them",
+        "To adjust the weights and biases of the generator",
+        "To control the learning rate during training",
+        "To randomize the generation process and introduce variations"
         ],
-        "correct": "A limited number of distinct and clearly defined values"
+        "correct": "To randomize the generation process and introduce variations"
     },
     {
-        "text": "Which of the following is an example of a discrete environment?",
+        "text": "What is a Generative Adversarial Network (GAN)?",
         "options": [
-            "A car driving along a road with continuous velocity and position",
-            "A robot moving in continuous space",
-            "A chess game where the possible moves are distinct and limited",
-            "Measuring temperature continuously"
+        "A network for data analysis",
+        "A network for data encryption",
+        "A type of neural network architecture for generative modeling",
+        "A network for fast data processing"
         ],
-        "correct": "A chess game where the possible moves are distinct and limited"
+        "correct": "A type of neural network architecture for generative modeling"
     },
     {
-        "text": "What is a characteristic of static environments?",
+        "text": "Which loss function is commonly used for binary classification tasks in deep learning?",
         "options": [
-            "They are always non-deterministic.",
-            "They only change when the agent takes an action.",
-            "They do not change while the agent is deliberating over what to do",
-            "They change continuously while the agent is deliberating"
+        "Mean Absolute Error",
+        "Mean Squared Error",
+        "Binary Cross-Entropy Loss",
+        "Hinge Loss"
         ],
-        "correct": "They do not change while the agent is deliberating over what to do"
+        "correct": "Binary Cross-Entropy Loss"
+    },
+    {
+        "text": "Generator in GAN is similar to?",
+        "options": [
+        "Transformer",
+        "Autoencoder's encoder",
+        "Autoencoder's decoder"
+        ],
+        "correct": "Autoencoder's decoder"
+    },
+    {
+        "text": "What is the primary objective of a Generative Adversarial Network (GAN)?",
+        "options": [
+        "Image generation",
+        "Text summarization",
+        "Text translation",
+        "Image classification"
+        ],
+        "correct": "Image generation"
+    },
+    {
+        "text": "What is the primary purpose of a Recurrent Neural Network (RNN)?",
+        "options": [
+        "Reinforcement learning",
+        "Text generation",
+        "Image classification",
+        "Object detection"
+        ],
+        "correct": "Text generation"
+    },
+    {
+        "text": "How does the generator component in a GAN learn to generate realistic samples?",
+        "options": [
+        "By minimizing the loss function of the discriminator",
+        "By maximizing the loss function of the discriminator",
+        "By minimizing the loss function of the generator",
+        "By maximizing the loss function of the generator"
+        ],
+        "correct": "By minimizing the loss function of the generator"
+    },
+    {
+        "text": "Softmax layer is one of the best options as the output layer in a multilabel classification implementation.",
+        "options": [
+        "True",
+        "False"
+        ],
+        "correct": "False"
+    },
+    {
+        "text": "Which layer type is responsible for making final predictions in a CNN?",
+        "options": [
+        "Convolutional layer",
+        "Pooling layer",
+        "Fully connected layer",
+        "Activation layer"
+        ],
+        "correct": "Fully connected layer"
+    },
+    {
+        "text": "In which neural net architecture, does weight sharing occur?",
+        "options": [
+        "recurrent neural network",
+        "convolutional neural network",
+        "fully connected neural network",
+        "both a and b"
+        ],
+        "correct": "both a and b"
+    },
+    {
+        "text": "What is the purpose of the hidden state in an RNN?",
+        "options": [
+        "To store the information from the previous time step",
+        "To adjust the learning rate during training",
+        "To compute the gradients for backpropagation",
+        "None of the above"
+        ],
+        "correct": "To store the information from the previous time step"
+    },
+    {
+        "text": "What is the advantage of using convolutional layers in a CNN?",
+        "options": [
+        "They can capture local spatial patterns in the input data",
+        "They can handle sequential data",
+        "They can generate synthetic data",
+        "They can handle variable-length inputs"
+        ],
+        "correct": "They can capture local spatial patterns in the input data"
+    },
+    {
+        "text": "What is the purpose of the stride parameter in a convolutional layer?",
+        "options": [
+        "To determine the size of the receptive field",
+        "To control the step size of the convolution operation",
+        "To adjust the learning rate during training",
+        "None of the above"
+        ],
+        "correct": "To control the step size of the convolution operation"
+    },
+    {
+        "text": "What is the purpose of the pooling layer in CNN",
+        "options": [
+        "To reduce the spatial dimensions of the feature maps",
+        "To introduce non-linearity to the network",
+        "To adjust the weights and biases of the network",
+        "To compute the gradients for backpropagation"
+        ],
+        "correct": "To reduce the spatial dimensions of the feature maps"
+    },
+    {
+        "text": "The number of nodes in the input layer is 10 and the hidden layer is 5. The maximum number of connections from the input layer to the hidden layer are",
+        "options": [
+        "50",
+        "Less Than 50",
+        "More than 50",
+        "It is an arbitrary value"
+        ],
+        "correct": "50"
+    },
+    {
+        "text": "What is the purpose of data augmentation in CNN training?",
+        "options": [
+        "Increase model complexity",
+        "Reduce training time",
+        "Augment the dataset.",
+        "Prevent overfitting"
+        ],
+        "correct": "Prevent overfitting"
+    },
+    {
+        "text": "What is back propagation?",
+        "options": [
+        "it is another name given to the curvy function in the perceptron",
+        "It is the transmission of error back through the network to adjust the inputs",
+        "It is the transmission of error back through the network to allow weights to be adjusted so that the network can learn",
+        "None of the mentioned"
+        ],
+        "correct": "It is the transmission of error back through the network to allow weights to be adjusted so that the network can learn"
+    },
+    {
+        "text": "On what factor the number of outputs depends?",
+        "options": [
+        "distinct inputs.",
+        "distinct classes",
+        "both on distinct classes & inputs",
+        "none of the mentioned."
+        ],
+        "correct": "distinct classes"
+    },
+    {
+        "text": "Softmax layer is one of the best options as the output layer in a multiclass classification implementation.",
+        "options": [
+        "True",
+        "False"
+        ],
+        "correct": "True"
+    },
+    {
+        "text": "Suppose your input is a 300 by 300 color (RGB) image, and you use a convolutional layer with 100 filters that are each 5x5. How many parameters does this hidden layer have (without bias)",
+        "options": [
+        "2501",
+        "2600",
+        "7500",
+        "7600"
+        ],
+        "correct": "7500"
+    },
+    {
+        "text": "What is the basic concept of Recurrent Neural Network?",
+        "options": [
+        "Use a loop between inputs and outputs in order to achieve the better prediction.",
+        "Use loops between the most important features to predict next output.",
+        "Use previous inputs to find the next output according to the training set.",
+        "Use recurrent features from dataset to find UD the best answers."
+        ],
+        "correct": "Use previous inputs to find the next output according to the training set."
+    },
+    {
+        "text": "For what RNN is used and achieve the best results?",
+        "options": [
+        "Handwriting and speech recognition",
+        "Speech and images recognition",
+        "Handwriting and images recognition",
+        "Financial predictions"
+        ],
+        "correct": "Handwriting and speech recognition"
+    },
+    {
+        "text": "Which answer explains better the Flattening?",
+        "options": [
+        "It is the last step of CNN.",
+        "Transform images to vectors to make it easier to predict.",
+        "Delete unnecessary features to make our dataset cleaner.",
+        "Once we have the pooled feature map, this component transforms the information into a vector. It's the input we need to get on with Artificial Neural Networks."
+        ],
+        "correct": "Once we have the pooled feature map, this component transforms the information into a vector. It's the input we need to get on with Artificial Neural Networks."
+    },
+    {
+        "text": "What is the primary challenge in training deeper neural networks?",
+        "options": [
+        "Difficulty in defining the loss function",
+        "Vanishing gradient problem",
+        "Lack of computational resources",
+        "The requirement for more labeled data"
+        ],
+        "correct": "Vanishing gradient problem"
+    },
+    {
+        "text": "What is the purpose of the time step parameter in an RNN?",
+        "options": [
+        "To determine the number of recurrent layers in the network",
+        "To adjust the learning rate during training",
+        "To specify the length of the input sequence",
+        "None of the above"
+        ],
+        "correct": "To specify the length of the input sequence"
+    },
+    {
+        "text": "A dataset contains 1000 grayscale images of size 28×28. What is the correct tensor shape?",
+        "options": [
+        "(28, 28, 1000)",
+        "(1000, 28, 28, 1)",
+        "(1000, 28, 28, 3)",
+        "(1000, 1, 28, 28)"
+        ],
+        "correct": "(1000, 28, 28, 1)"
+    },
+    {
+        "text": "Which optimizer is commonly used to improve backpropagation?",
+        "options": [
+        "Principal Component Analysis (PCA)",
+        "Decision Trees",
+        "Random Search",
+        "Stochastic Gradient Descent (SGD)"
+        ],
+        "correct": "Stochastic Gradient Descent (SGD)"
+    },
+    {
+        "text": "What is the main purpose of bias in a neural network?",
+        "options": [
+        "To reduce computation time",
+        "To shift the activation function",
+        "To control overfitting",
+        "To normalize input data"
+        ],
+        "correct": "To shift the activation function"
+    },
+    {
+        "text": "In a simple MLP model with 8 neurons in the input layer, 5 neurons in the hidden layer and 1 neuron in the output layer. What is the size of the weight matrices between hidden output layer and input hidden layer?",
+        "options": [
+        "[8 X 5] , [5 X 1]",
+        "[8 X 5] , [ 1 X 5]",
+        "[5 x 1] , [8 X 5]",
+        "[1 X 5] , [5 X 8]"
+        ],
+        "correct": "[8 X 5] , [5 X 1]"
+    },
+    {
+        "text": "How does increasing the learning rate affect backpropagation?",
+        "options": [
+        "Always slows down training",
+        "May cause the network to diverge",
+        "Always improves convergence",
+        "Has no effect"
+        ],
+        "correct": "May cause the network to diverge"
+    },
+    {
+        "text": "If a neuron has a weight of 0.5, input 2, bias 0.1, what is the net input?",
+        "options": [
+        "0.5",
+        "2",
+        "1",
+        "1.1"
+        ],
+        "correct": "1.1"
+    },
+    {
+        "text": "Why does backpropagation often require normalization techniques?",
+        "options": [
+        "To improve weight initialization",
+        "To speed up convergence",
+        "To reduce memory usage",
+        "To eliminate vanishing gradients"
+        ],
+        "correct": "To speed up convergence"
+    },
+    {
+        "text": "If a neuron output is 0.8 and the expected output is 1, what is the error using mean squared error (MSE)?",
+        "options": [
+        "0.4",
+        "0.2",
+        "0.04",
+        "0.02"
+        ],
+        "correct": "0.04"
+    },
+    {
+        "text": "If weight = 0.7, learning rate = 0.1, and gradient = 0.2, what is the new weight after one update?",
+        "options": [
+        "0.68",
+        "0.69",
+        "0.72",
+        "0.75"
+        ],
+        "correct": "0.68"
+    },
+    {
+        "text": "When training a deep network, how can you tell if your learning rate is too low?",
+        "options": [
+        "Accuracy drops sharply",
+        "Loss decreases very slowly",
+        "Loss fluctuates significantly",
+        "Loss decreases too quickly"
+        ],
+        "correct": "Loss decreases very slowly"
+    },
+    {
+        "text": "The gradient of a function represents:",
+        "options": [
+        "The function's value at a point",
+        "The direction of the steepest descent",
+        "The curvature of the function",
+        "The direction of the steepest ascent"
+        ],
+        "correct": "The direction of the steepest ascent"
+    },
+    {
+        "text": "activation functions are used to …...",
+        "options": [
+        "introduce non-linearity into neural networks",
+        "none of them",
+        "model complex relationships between input and output",
+        "both of them"
+        ],
+        "correct": "both of them"
+    },
+    {
+        "text": "What is the vanishing gradient problem?",
+        "options": [
+        "Large weight updates causing instability",
+        "Overfitting due to small datasets",
+        "Small gradients preventing deep networks from learning",
+        "Gradients moving too fast"
+        ],
+        "correct": "Small gradients preventing deep networks from learning"
+    },
+    {
+        "text": "What is the role of the weights and biases in a neural network?",
+        "options": [
+        "They are fixed and do not change during training",
+        "They determine the number of neurons in each layer",
+        "They are used to calculate the loss function",
+        "They are adjusted during training to control the flow of information and make predictions"
+        ],
+        "correct": "They are adjusted during training to control the flow of information and make predictions"
+    },
+    {
+        "text": "If a fully connected layer with 100 neurons is applied to an input of size 50, what is the size of the output of the fully connected layer?",
+        "options": [
+        "100",
+        "50",
+        "50000",
+        "can't be determined"
+        ],
+        "correct": "100"
+    },
+    {
+        "text": "The chain rule in backpropagation calculates:",
+        "options": [
+        "Bias terms",
+        "Gradient updates for weights",
+        "Loss function",
+        "Forward propagation activations"
+        ],
+        "correct": "Gradient updates for weights"
+    },
+    {
+        "text": "What technique helps prevent overfitting in deep neural networks?",
+        "options": [
+        "Using a larger learning rate",
+        "Increasing the number of layers",
+        "Adding dropout",
+        "Removing activation functions"
+        ],
+        "correct": "Adding dropout"
+    },
+    {
+        "text": "A 4-input neuron has weights 1, 2, 3 and 4. The transfer function is linear with the constant of proportionality being equal to 2. The inputs are 4, 10, 5 and 20 respectively. What will be the output?",
+        "options": [
+        "119",
+        "238",
+        "76",
+        "123"
+        ],
+        "correct": "238"
+    },
+    {
+        "text": "If a neuron uses the ReLU activation function and receives an input of -4, what is the output?",
+        "options": [
+        "Undefined",
+        "0",
+        "-4",
+        "4"
+        ],
+        "correct": "0"
+    },
+    {
+        "text": "What does 'Loss Function' refer to in the training of AI models?",
+        "options": [
+        "A function that measures the difference between predicted and actual results",
+        "A function to calculate network loss",
+        "A method for calculating financial loss",
+        "A function for data loss prevention"
+        ],
+        "correct": "A function that measures the difference between predicted and actual results"
+    },
+    {
+        "text": "What happens when gradients are very small in deep networks?",
+        "options": [
+        "Model stops learning due to exploding gradients",
+        "Weights update slowly, leading to vanishing gradients",
+        "Model trains faster",
+        "Training loss increases"
+        ],
+        "correct": "Weights update slowly, leading to vanishing gradients"
+    },
+    {
+        "text": "In a neural network for predicting whether someone has diabetes or not, what is the purpose of a Sigmoid activation?",
+        "options": [
+        "Improve runtime by exploiting parallel GPUs",
+        "Calculate derivatives for gradient descent faster",
+        "Allow regression models instead of classification",
+        "Ensure the model outputs a probability"
+        ],
+        "correct": "Ensure the model outputs a probability"
+    },
+    {
+        "text": "The most suitable activation function for hidden layer in DNN",
+        "options": [
+        "ReLu",
+        "Sigmoid",
+        "Softmax",
+        "tanh"
+        ],
+        "correct": "ReLu"
+    },
+    {
+        "text": "Given an input x= 2, weight w=3, and bias b=1, what is the output of the neuron before applying activation?",
+        "options": [
+        "6",
+        "5",
+        "8",
+        "7"
+        ],
+        "correct": "7"
+    },
+    {
+        "text": "Which mathematical principle is backpropagation based on?",
+        "options": [
+        "Taylor series expansion",
+        "Fourier transform",
+        "Chain rule of differentiation",
+        "Laplace transformation"
+        ],
+        "correct": "Chain rule of differentiation"
     }
+    
 ]
